@@ -28,13 +28,13 @@ Ans4 = st.text_input("Enter your ans__")
 st.write("---------------------------------------------------------------------------------------------")
 if Ans.lower() == "C".lower():
     Score += 5
-elif Ans1.lower() == "C".lower():
+if Ans1.lower() == "C".lower():
     Score += 5
-elif Ans2.lower() == "B".lower():
+if Ans2.lower() == "B".lower():
     Score += 5
-elif Ans3.lower() == "C".lower():
+if Ans3.lower() == "C".lower():
     Score += 5
-elif Ans4.lower() == "B".lower():
+if Ans4.lower() == "B".lower():
     Score += 5
 
 if Score == 5:
