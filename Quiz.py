@@ -52,8 +52,9 @@ if st.button("Submit Quiz"):
     st.write("Your Score:", score)
 
     if score == 25:
-        st.success("Congrats! You got 1st position 🏆")
+        st.success("Congrats! You got 1st position")
+        st.balloons()
     elif score >= 15:
-        st.info("Good Job! You got 2nd position 🎉")
+        st.info("Good Job! You got 2nd position")
     else:
         st.error("Better luck next time!")
