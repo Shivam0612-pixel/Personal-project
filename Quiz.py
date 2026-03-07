@@ -29,7 +29,7 @@ st.write("----------------------------------------------------------------------
 if Ans.lower() == "C".lower():
     Score += 5
 elif Ans1.lower() == "C".lower():
-    Score += 5'
+    Score += 5
 elif Ans2.lower() == "B".lower():
     Score += 5
 elif Ans3.lower() == "C".lower():
