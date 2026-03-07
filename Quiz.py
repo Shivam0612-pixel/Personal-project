@@ -56,5 +56,6 @@ if st.button("Submit Quiz"):
         st.balloons()
     elif score >= 15:
         st.info("Good Job! You got 2nd position")
+        st.snow()
     else:
         st.error("Better luck next time!")
