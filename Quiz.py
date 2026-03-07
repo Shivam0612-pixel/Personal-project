@@ -9,26 +9,26 @@ if Ans.lower() == "C".lower():
 st.write("---------------------------------------------------------------------------------------------")    
 st.write("Q2. Who is known as the Father of the Nation in India?")
 st.write("A) Jawaharlal Nehru   B) Subhash Chandra Bose    \nC) Mahatma Gandhi     D) Sardar Patel")
-Ans = st.text_input("Enter your ans__")
-if Ans.lower() == "C".lower():
+Ans1 = st.text_input("Enter your ans__")
+if Ans1.lower() == "C".lower():
     Score += 5
 st.write("---------------------------------------------------------------------------------------------")
 st.write("Q3. What is the capital of India?")
 st.write("A) Mumbai    B) New Delhi    \nC) Kolkata   D) Chennai")
-Ans = st.text_input("Enter your ans__")
-if Ans.lower() == "B".lower():
+Ans2 = st.text_input("Enter your ans__")
+if Ans2.lower() == "B".lower():
     Score += 5
 st.write("---------------------------------------------------------------------------------------------")
 st.write("Q4. Which is the largest planet in our solar system?")
 st.write("A) Earth     B) Mars     \nC) Jupiter   D) Saturn")
-Ans = st.text_input("Enter your ans__")
-if Ans.lower() == "C".lower():
+Ans3 = st.text_input("Enter your ans__")
+if Ans3.lower() == "C".lower():
     Score += 5
 st.write("---------------------------------------------------------------------------------------------")
 st.write("Q5. Who invented the telephone?")
 st.write("A) Thomas Edison    B) Alexander Graham Bell    \nC) Nikola Tesla     D) Newton")
-Ans = st.text_input("Enter your ans__")
-if Ans.lower() == "B".lower():
+Ans4 = st.text_input("Enter your ans__")
+if Ans4.lower() == "B".lower():
     Score += 5
 st.write("---------------------------------------------------------------------------------------------")
 if Score == 5:
