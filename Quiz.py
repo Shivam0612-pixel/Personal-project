@@ -11,14 +11,14 @@ st.title("Simple Quiz App")
 
 st.write("Q1. What is the first alphabet of english language ?")
 st.write("A) C   B) G   C) A   D) F")
-Ans = st.text_input("Enter your ans__")
+Ans = st.text_input("Enter your ans__","Q1")
 
 st.write("--------------------------------------------------")
 
 st.write("Q2. Who is known as the Father of the Nation in India?")
 st.write("A) Jawaharlal Nehru   B) Subhash Chandra Bose")
 st.write("C) Mahatma Gandhi     D) Sardar Patel")
-Ans = st.text_input("Enter your ans__")
+Ans = st.text_input("Enter your ans__","Q2")
 
 st.write("--------------------------------------------------")
 
