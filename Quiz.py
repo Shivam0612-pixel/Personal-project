@@ -147,8 +147,6 @@ if st.button("Submit Quiz"):
         Score += 5   
     if Ans20.lower() == "C".lower():
         Score += 5     
-    st.write("Your Score:", score)
-
 if score >= 90:
     st.success("Congrats! You got 1st position")
     st.balloons()
