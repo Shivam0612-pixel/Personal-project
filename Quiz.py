@@ -129,13 +129,14 @@ Ans = st.text_input("Enter your ans__","Ans 20")
 if Ans.lower() == "C".lower():
     Score += 5 
 st.write("---------------------------------------------------------------------------------------------")
+if st.button("Submit Quiz"):
+    if Score > 30 :
+        st.write("**-** Heartly congratulation to Qualify with ",Score,"/100","**-** ")
+        st.baloons()
+    else:
+        st.write("Your Score is",Score,"/100","Not Qualified","\n","Sorry, Better luck for next time")
 
-# if Score > 30 :
-#     st.write("**-** Heartly congratulation to Qualify with ",Score,"/100","**-** ")
-# else:
-#     st.write("Your Score is",Score,"/100","Not Qualified","\n","Sorry, Better luck for next time")
-
-# if st.button("Submit Quiz"):
+# 
 
 #     if ans.lower() == "c":
 #         score += 5
@@ -150,11 +151,11 @@ st.write("----------------------------------------------------------------------
 
 #     st.write("Your Score:", score)
 
-if score >= 90:
-    st.success("Congrats! You got 1st position")
-    st.balloons()
-elif score == 65:
-    st.info("Good Job! You got 2nd position")
-    st.snow()
-else:
-    st.error("Better luck next time!")
+# if score >= 90:
+#     st.success("Congrats! You got 1st position")
+#     st.balloons()
+# elif score == 65:
+#     st.info("Good Job! You got 2nd position")
+#     st.snow()
+# else:
+#     st.error("Better luck next time!")
