@@ -151,11 +151,11 @@ st.write("----------------------------------------------------------------------
 
 #     st.write("Your Score:", score)
 
-    if score >= 90:
-        st.success("Congrats! You got 1st position")
-        st.balloons()
-    elif score == 65:
-        st.info("Good Job! You got 2nd position")
-        st.snow()
-    else:
-        st.error("Better luck next time!")
+if score >= 90:
+    st.success("Congrats! You got 1st position")
+    st.balloons()
+elif score == 65:
+    st.info("Good Job! You got 2nd position")
+    st.snow()
+else:
+    st.error("Better luck next time!")
