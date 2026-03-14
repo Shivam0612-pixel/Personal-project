@@ -11,33 +11,32 @@ st.title("Simple Quiz App")
 
 st.write("Q1. What is the first alphabet of english language ?")
 st.write("A) C   B) G   C) A   D) F")
-ans = st.text_input("Enter your answer for Q1")
+Ans = st.text_input("Enter your ans__")
 
 st.write("--------------------------------------------------")
 
 st.write("Q2. Who is known as the Father of the Nation in India?")
 st.write("A) Jawaharlal Nehru   B) Subhash Chandra Bose")
 st.write("C) Mahatma Gandhi     D) Sardar Patel")
-ans1 = st.text_input("Enter your answer for Q2")
+Ans = st.text_input("Enter your ans__")
 
 st.write("--------------------------------------------------")
 
 st.write("Q3. What is the capital of India?")
 st.write("A) Mumbai   B) New Delhi   C) Kolkata   D) Chennai")
-ans2 = st.text_input("Enter your answer for Q3")
-
+Ans = st.text_input("Enter your ans__")
 st.write("--------------------------------------------------")
 
 st.write("Q4. Which is the largest planet in our solar system?")
 st.write("A) Earth   B) Mars   C) Jupiter   D) Saturn")
-ans3 = st.text_input("Enter your answer for Q4")
+Ans = st.text_input("Enter your ans__")
 
 st.write("--------------------------------------------------")
 
 st.write("Q5. Who invented the telephone?")
 st.write("A) Thomas Edison   B) Alexander Graham Bell")
 st.write("C) Nikola Tesla    D) Newton")
-ans4 = st.text_input("Enter your answer for Q5")
+Ans = st.text_input("Enter your ans__")
 
 st.write("--------------------------------------------------")
 st.write("Q6. Which is the longest river in the world?")
